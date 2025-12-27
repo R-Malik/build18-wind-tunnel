@@ -13089,8 +13089,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "720cad4d-be2e-4bdf-8b49-56976ccd2c4b")
-		(property "Reference" "AS5600_MAGNETIC_ANGLE_SENSOR"
-			(at 175.26 67.564 0)
+		(property "Reference" "AS5600_MAGNETIC_ANGLE_SENSOR1"
+			(at 170.434 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13326,7 +13326,7 @@
 		(instances
 			(project ""
 				(path "/ccca5b34-9e10-49f9-bf4d-4f8efae0db3d"
-					(reference "AS5600_MAGNETIC_ANGLE_SENSOR")
+					(reference "AS5600_MAGNETIC_ANGLE_SENSOR1")
 					(unit 1)
 				)
 			)
@@ -13342,7 +13342,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d1eb8cf-f7b3-4a10-9fb8-66dc4e9cec52")
-		(property "Reference" "HX711_DAC"
+		(property "Reference" "HX711_DAC1"
 			(at 117.094 122.174 0)
 			(effects
 				(font
@@ -13530,7 +13530,7 @@
 		(instances
 			(project ""
 				(path "/ccca5b34-9e10-49f9-bf4d-4f8efae0db3d"
-					(reference "HX711_DAC")
+					(reference "HX711_DAC1")
 					(unit 1)
 				)
 			)
@@ -13878,7 +13878,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0cd63c1-2ea7-4ab4-b814-d7abaf278678")
-		(property "Reference" "MPXV7002DP_PRESSURE_SENSOR"
+		(property "Reference" "MPXV7002DP_PRESSURE_SENSOR1"
 			(at 216.408 29.972 0)
 			(effects
 				(font
@@ -14065,7 +14065,7 @@
 		(instances
 			(project ""
 				(path "/ccca5b34-9e10-49f9-bf4d-4f8efae0db3d"
-					(reference "MPXV7002DP_PRESSURE_SENSOR")
+					(reference "MPXV7002DP_PRESSURE_SENSOR1")
 					(unit 1)
 				)
 			)
@@ -14279,8 +14279,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e78393c5-68b7-4527-8200-860c32e92967")
-		(property "Reference" "BME280_TEMP_SENSOR"
-			(at 116.84 89.916 0)
+		(property "Reference" "BME280_TEMP_SENSOR1"
+			(at 118.872 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14478,7 +14478,7 @@
 		(instances
 			(project ""
 				(path "/ccca5b34-9e10-49f9-bf4d-4f8efae0db3d"
-					(reference "BME280_TEMP_SENSOR")
+					(reference "BME280_TEMP_SENSOR1")
 					(unit 1)
 				)
 			)

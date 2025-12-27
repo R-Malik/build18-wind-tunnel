@@ -5,4 +5,6 @@
   (lib (name "HX711")(type "KiCad")(uri "${KIPRJMOD}/libraries/HX711/HX711.kicad_sym")(options "")(descr ""))
   (lib (name "MPXV7002DP")(type "KiCad")(uri "${KIPRJMOD}/libraries/MPXV7002DP/MPXV7002DP.kicad_sym")(options "")(descr ""))
   (lib (name "Teensy4.0")(type "KiCad")(uri "${KIPRJMOD}/libraries/Teensy4.0/Teensy4.0.kicad_sym")(options "")(descr ""))
+  (lib (name "SL_Capacitors")(type "KiCad")(uri "${KIPRJMOD}/libraries/SL_Other/SL_Capacitors.kicad_sym")(options "")(descr ""))
+  (lib (name "SL_Resistors")(type "KiCad")(uri "${KIPRJMOD}/libraries/SL_Other/SL_Resistors.kicad_sym")(options "")(descr ""))
 )
