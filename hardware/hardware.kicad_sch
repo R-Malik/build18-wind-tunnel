@@ -12013,7 +12013,7 @@
 			"lPHavURG69q4OuqoY2Dg/wFn5ZknsZFHuQAAAABJRU5ErkJggg=="
 		)
 	)
-	(label "PRESS_OUT"
+	(label "PRESS_AOUT"
 		(at 140.97 48.26 0)
 		(effects
 			(font
@@ -12023,7 +12023,7 @@
 		)
 		(uuid "22f1f4cc-344a-491f-b77a-c925eb2ce87e")
 	)
-	(label "DAC_CLK"
+	(label "LOAD_CLK"
 		(at 91.44 144.78 0)
 		(effects
 			(font
@@ -12033,7 +12033,7 @@
 		)
 		(uuid "30bfa5ed-7377-4d3a-bbd0-bea59ea0a32a")
 	)
-	(label "DAC_DATA"
+	(label "LOAD_DATA"
 		(at 140.97 45.72 0)
 		(effects
 			(font
@@ -12053,7 +12053,7 @@
 		)
 		(uuid "3bd0f572-13ac-4676-9aa9-4cb3af5e7cea")
 	)
-	(label "PRESS_OUT"
+	(label "PRESS_AOUT"
 		(at 181.61 45.72 0)
 		(effects
 			(font
@@ -12063,7 +12063,7 @@
 		)
 		(uuid "890e188a-f055-4e74-b5ac-3b7c0f2eb036")
 	)
-	(label "DAC_CLK"
+	(label "LOAD_CLK"
 		(at 140.97 43.18 0)
 		(effects
 			(font
@@ -12103,7 +12103,7 @@
 		)
 		(uuid "d1fc3caa-7a66-443d-bc4a-4b527d32986a")
 	)
-	(label "DAC_DATA"
+	(label "LOAD_DATA"
 		(at 91.44 142.24 0)
 		(effects
 			(font
