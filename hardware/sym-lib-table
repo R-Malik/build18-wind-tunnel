@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "AS5600")(type "KiCad")(uri "${KIPRJMOD}/libraries/AS5600/AS5600.kicad_sym")(options "")(descr ""))
+  (lib (name "BME280")(type "KiCad")(uri "${KIPRJMOD}/libraries/BME280/BME280.kicad_sym")(options "")(descr ""))
+  (lib (name "HX711")(type "KiCad")(uri "${KIPRJMOD}/libraries/HX711/HX711.kicad_sym")(options "")(descr ""))
+  (lib (name "MPXV7002DP")(type "KiCad")(uri "${KIPRJMOD}/libraries/MPXV7002DP/MPXV7002DP.kicad_sym")(options "")(descr ""))
+  (lib (name "Teensy4.0")(type "KiCad")(uri "${KIPRJMOD}/libraries/Teensy4.0/Teensy4.0.kicad_sym")(options "")(descr ""))
+)
