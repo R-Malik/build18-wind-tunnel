@@ -1,9 +1,5 @@
 // Main Firmware for Build18 Wind Tunnel
 
-/* TODO:
-	- Refactor
-*/
-
 #include <Arduino.h>
 #include <Wire.h>
 
