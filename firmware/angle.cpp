@@ -1,36 +1,34 @@
-// AS5600 Magnetic Angle Sensor Wrapper (I2C)
+// AS5600 Magnetic Angle Sensor Wrapper
 
 #include <Wire.h>
 #include <Adafruit_AS5600.h>
-
 #include "angle.h"
 
 static Adafruit_AS5600 angle;
 static uint16_t angleZeroOffset = 0;
 
-// Init angle sensor with given I2C address
 bool angleBegin(uint8_t i2cAddr) {
-	return angle.begin(i2cAddr);
+	if (angle.begin(i2cAddr)) {
+		Serial.println("Angle sensor (AS5600) init succeeded.");
+		angleCalibrateZero(32);
+		Serial.println("Angle sensor (AS5600) tare succeeded.");
+		return true;
+	} else {
+		Serial.println("Angle sensor (AS5600) init failed: not connected.");
+		return false;
+	}
 }
 
-// Read raw angle value (0..4095) adjusted by zero offset
-uint16_t angleReadRaw() {
+float angleReadDegrees() {
 	uint16_t raw = angle.getRawAngle();
 	uint16_t adjusted = (raw + 4096 - angleZeroOffset) % 4096;
-	return adjusted;
+	return static_cast<float>(adjusted) * (360.0f / 4096.0f);
 }
 
-// Return current angle in deg
-float angleReadDegrees() {
-	return static_cast<float>(angleReadRaw()) * (360.0f / 4096.0f);
-}
-
-// Set zero offset for angle sensor
 void angleSetZero(uint16_t rawZero) {
 	angleZeroOffset = rawZero % 4096;
 }
 
-// Calibrate and set zero offset by averaging number of samples
 void angleCalibrateZero(uint8_t samples) {
 	if (samples == 0) {
 		samples = 1;
@@ -42,9 +40,4 @@ void angleCalibrateZero(uint8_t samples) {
 	}
 	uint16_t avg = static_cast<uint16_t>(sum / samples);
 	angleSetZero(avg);
-}
-
-// Reset angle zero offset to default (0)
-void angleReset() {
-	angleZeroOffset = 0;
 }

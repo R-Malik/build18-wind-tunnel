@@ -1,4 +1,3 @@
-// Header for temp.cpp
 #ifndef TEMP_H
 #define TEMP_H
 
@@ -8,9 +7,6 @@
 
 bool tempBegin(uint8_t i2cAddr);
 float tempReadC();
-float tempReadF();
-float tempReadPressurePa();
-float tempReadHumidity();
-float tempReadAltitudeM(float seaLevel_hPa);
+float tempReadHumidityPercent();
 
-#endif // TEMP_H
+#endif
