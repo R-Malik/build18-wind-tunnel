@@ -2860,7 +2860,7 @@
 	)
 	(text_box "Datasheet:\nhttps://www.nxp.com/docs/en/data-sheet/MPXV7002.pdf"
 		(exclude_from_sim no)
-		(at 218.44 36.83 0)
+		(at 218.44 33.02 0)
 		(size 60.96 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2880,10 +2880,10 @@
 		(uuid "79daee81-d90b-4bc7-a31f-a4cad0343f61")
 	)
 	(junction
-		(at 181.61 40.64)
+		(at 177.8 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b8e7f606-239d-4126-8ecf-b7413ef05f91")
+		(uuid "3ea7328e-e9a7-4a5f-8617-9ae8ea800ffd")
 	)
 	(junction
 		(at 104.14 127)
@@ -2923,7 +2923,17 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 43.18) (xy 140.97 43.18)
+			(xy 177.8 36.83) (xy 177.8 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e0b6200-2e20-4679-8413-cd053ce227e8")
+	)
+	(wire
+		(pts
+			(xy 137.16 40.64) (xy 140.97 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2933,7 +2943,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 40.64) (xy 195.58 40.64)
+			(xy 193.04 36.83) (xy 195.58 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2963,6 +2973,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 36.83) (xy 185.42 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c53ef66-18c2-41a2-a417-1f78328ff3ff")
+	)
+	(wire
+		(pts
 			(xy 91.44 142.24) (xy 104.14 142.24)
 		)
 		(stroke
@@ -2970,16 +2990,6 @@
 			(type default)
 		)
 		(uuid "3e49acc2-5dd3-4bca-b0bf-7307ebd2988d")
-	)
-	(wire
-		(pts
-			(xy 177.8 40.64) (xy 181.61 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44dd186d-55dd-4b8b-86a0-e4c72c18b195")
 	)
 	(wire
 		(pts
@@ -2993,7 +3003,17 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 53.34) (xy 140.97 53.34)
+			(xy 161.29 36.83) (xy 165.1 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a499a50-9780-4bd9-9520-1bc501bb1e1e")
+	)
+	(wire
+		(pts
+			(xy 137.16 50.8) (xy 140.97 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3003,13 +3023,23 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 48.26) (xy 140.97 48.26)
+			(xy 137.16 45.72) (xy 140.97 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "79b28e14-a2a6-40d9-8363-4be80c092f5e")
+	)
+	(wire
+		(pts
+			(xy 138.43 31.75) (xy 138.43 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fa9d2ed-b8cb-4ba2-b02d-86b3787fcb21")
 	)
 	(wire
 		(pts
@@ -3030,6 +3060,16 @@
 			(type default)
 		)
 		(uuid "87c1ee4d-8d09-4560-9b3a-db6875109d37")
+	)
+	(wire
+		(pts
+			(xy 138.43 33.02) (xy 137.16 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a667494-edf0-482a-818e-13c170a66adf")
 	)
 	(wire
 		(pts
@@ -3073,6 +3113,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 36.83) (xy 177.8 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c05af0dd-bd86-42c4-8754-6d5472eb8007")
+	)
+	(wire
+		(pts
 			(xy 194.31 80.01) (xy 190.5 80.01)
 		)
 		(stroke
@@ -3080,16 +3130,6 @@
 			(type default)
 		)
 		(uuid "c9edc23d-895d-4c85-91a3-245ba413702c")
-	)
-	(wire
-		(pts
-			(xy 181.61 40.64) (xy 185.42 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc34ec0e-90e8-43c4-bb85-810ee25f1e06")
 	)
 	(wire
 		(pts
@@ -3123,7 +3163,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 50.8) (xy 140.97 50.8)
+			(xy 137.16 48.26) (xy 140.97 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3143,7 +3183,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 45.72) (xy 140.97 45.72)
+			(xy 137.16 43.18) (xy 140.97 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3153,27 +3193,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 40.64) (xy 181.61 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f28fbfce-cabe-410c-82c1-cb36ae9f2efb")
-	)
-	(wire
-		(pts
-			(xy 170.18 40.64) (xy 166.37 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f62280b4-57c8-4e2a-adc5-b6b5bdd89a86")
-	)
-	(wire
-		(pts
-			(xy 166.37 40.64) (xy 166.37 41.91)
+			(xy 161.29 36.83) (xy 161.29 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3193,7 +3213,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 33.02) (xy 140.97 33.02)
+			(xy 138.43 31.75) (xy 140.97 31.75)
 		)
 		(stroke
 			(width 0)
@@ -12014,7 +12034,7 @@
 		)
 	)
 	(label "PRESS_AOUT"
-		(at 140.97 48.26 0)
+		(at 140.97 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12034,7 +12054,7 @@
 		(uuid "30bfa5ed-7377-4d3a-bbd0-bea59ea0a32a")
 	)
 	(label "LOAD_DATA"
-		(at 140.97 45.72 0)
+		(at 140.97 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12054,7 +12074,7 @@
 		(uuid "3bd0f572-13ac-4676-9aa9-4cb3af5e7cea")
 	)
 	(label "PRESS_AOUT"
-		(at 181.61 45.72 0)
+		(at 171.45 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12064,7 +12084,7 @@
 		(uuid "890e188a-f055-4e74-b5ac-3b7c0f2eb036")
 	)
 	(label "LOAD_CLK"
-		(at 140.97 43.18 0)
+		(at 140.97 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12084,7 +12104,7 @@
 		(uuid "942b4923-a0ca-41e7-bbc7-cd4af67314ad")
 	)
 	(label "I2C_DATA"
-		(at 140.97 53.34 0)
+		(at 140.97 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12094,7 +12114,7 @@
 		(uuid "bad04d6f-4775-4faf-b21f-5e597c712f19")
 	)
 	(label "I2C_CLK"
-		(at 140.97 50.8 0)
+		(at 140.97 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12135,7 +12155,7 @@
 	)
 	(symbol
 		(lib_id "SL_Capacitors:100nF_Ceramic")
-		(at 181.61 50.8 270)
+		(at 167.64 36.83 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12144,7 +12164,7 @@
 		(dnp no)
 		(uuid "069fe096-895d-49fb-9936-db66c0874cb0")
 		(property "Reference" "C1"
-			(at 177.8 49.5299 90)
+			(at 169.672 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12152,8 +12172,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF_Ceramic"
-			(at 177.8 52.0699 90)
+		(property "Value" "1uF"
+			(at 169.672 32.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12162,7 +12182,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
-			(at 177.8 50.8 0)
+			(at 167.64 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12171,7 +12191,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 50.8 0)
+			(at 167.64 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12180,7 +12200,7 @@
 			)
 		)
 		(property "Description" "100nF Ceramic Capacitor"
-			(at 181.61 50.8 0)
+			(at 167.64 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12198,6 +12218,76 @@
 			(project ""
 				(path "/ccca5b34-9e10-49f9-bf4d-4f8efae0db3d"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SL_Resistors:10k")
+		(at 177.8 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cd9b581-9383-4616-a476-f5d27109ad67")
+		(property "Reference" "R3"
+			(at 180.34 48.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3.3K"
+			(at 180.34 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 182.118 48.641 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 49.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10kΩ, 1/4W Resistor"
+			(at 177.8 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d931ce6-2cb0-4c80-bc37-25d7157721fa")
+		)
+		(pin "2"
+			(uuid "6cee04fd-f204-4bb4-b602-3e99ad17cd8d")
+		)
+		(instances
+			(project "hardware"
+				(path "/ccca5b34-9e10-49f9-bf4d-4f8efae0db3d"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -12271,7 +12361,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 181.61 53.34 0)
+		(at 177.8 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12280,7 +12370,7 @@
 		(fields_autoplaced yes)
 		(uuid "21c0311b-b78e-445d-9077-97880f334be8")
 		(property "Reference" "#PWR016"
-			(at 181.61 59.69 0)
+			(at 177.8 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12289,7 +12379,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 181.61 58.42 0)
+			(at 177.8 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12297,7 +12387,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 53.34 0)
+			(at 177.8 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12306,7 +12396,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 53.34 0)
+			(at 177.8 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12315,7 +12405,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 53.34 0)
+			(at 177.8 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12337,7 +12427,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 195.58 45.72 0)
+		(at 195.58 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12346,7 +12436,7 @@
 		(fields_autoplaced yes)
 		(uuid "33d5441d-88f9-4442-9cb8-7812dce962b9")
 		(property "Reference" "#PWR04"
-			(at 195.58 52.07 0)
+			(at 195.58 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12355,7 +12445,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 195.58 50.8 0)
+			(at 195.58 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12363,7 +12453,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 45.72 0)
+			(at 195.58 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12372,7 +12462,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 45.72 0)
+			(at 195.58 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12381,7 +12471,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 45.72 0)
+			(at 195.58 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12949,16 +13039,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 140.97 33.02 0)
+		(at 140.97 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "650f18a3-cd20-436b-ac3a-ad362d197a87")
 		(property "Reference" "#PWR05"
-			(at 140.97 39.37 0)
+			(at 140.97 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12967,7 +13056,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 140.97 38.1 0)
+			(at 140.97 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12975,7 +13064,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 33.02 0)
+			(at 140.97 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12984,7 +13073,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 33.02 0)
+			(at 140.97 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12993,7 +13082,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 33.02 0)
+			(at 140.97 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13604,7 +13693,7 @@
 	)
 	(symbol
 		(lib_id "SL_Resistors:10k")
-		(at 173.99 40.64 0)
+		(at 177.8 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13613,23 +13702,25 @@
 		(fields_autoplaced yes)
 		(uuid "90f7f2b5-6830-417d-bf80-d5511144b4cf")
 		(property "Reference" "R2"
-			(at 173.99 34.29 0)
+			(at 180.34 40.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "6.6K"
-			(at 173.99 36.83 0)
+		(property "Value" "3.3K"
+			(at 180.34 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 174.879 44.958 0)
+			(at 182.118 41.021 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13638,7 +13729,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 174.498 40.64 0)
+			(at 177.8 41.402 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13647,7 +13738,7 @@
 			)
 		)
 		(property "Description" "10kΩ, 1/4W Resistor"
-			(at 173.99 40.64 0)
+			(at 177.8 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13738,7 +13829,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 166.37 41.91 0)
+		(at 161.29 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13747,7 +13838,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a426d77-9c3e-49b0-babe-6cb2217409a3")
 		(property "Reference" "#PWR015"
-			(at 166.37 48.26 0)
+			(at 161.29 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13756,7 +13847,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 166.37 46.99 0)
+			(at 161.29 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13764,7 +13855,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 41.91 0)
+			(at 161.29 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13773,7 +13864,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 41.91 0)
+			(at 161.29 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13782,7 +13873,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 41.91 0)
+			(at 161.29 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13804,7 +13895,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 195.58 35.56 0)
+		(at 195.58 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13813,7 +13904,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf8040bd-ff14-4cda-870b-60476f1be9fd")
 		(property "Reference" "#PWR014"
-			(at 195.58 39.37 0)
+			(at 195.58 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13822,7 +13913,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 195.58 30.48 0)
+			(at 195.58 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13830,7 +13921,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 35.56 0)
+			(at 195.58 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13839,7 +13930,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 35.56 0)
+			(at 195.58 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13848,7 +13939,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 195.58 35.56 0)
+			(at 195.58 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13870,7 +13961,7 @@
 	)
 	(symbol
 		(lib_id "MPXV7002DP:MPXV7002DP")
-		(at 208.28 40.64 0)
+		(at 208.28 36.83 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13879,7 +13970,7 @@
 		(dnp no)
 		(uuid "c0cd63c1-2ea7-4ab4-b814-d7abaf278678")
 		(property "Reference" "MPXV7002DP_PRESSURE_SENSOR1"
-			(at 216.408 29.972 0)
+			(at 216.408 26.162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13887,7 +13978,7 @@
 			)
 		)
 		(property "Value" "MPXV7002DP"
-			(at 208.28 30.48 0)
+			(at 208.28 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13896,7 +13987,7 @@
 			)
 		)
 		(property "Footprint" "MPXV7002DP:XDCR_MPXV7002DP"
-			(at 208.28 40.64 0)
+			(at 208.28 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13906,7 +13997,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 40.64 0)
+			(at 208.28 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13915,7 +14006,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 208.28 40.64 0)
+			(at 208.28 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13924,7 +14015,7 @@
 			)
 		)
 		(property "MF" "NXP Semiconductors"
-			(at 208.28 40.64 0)
+			(at 208.28 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13934,7 +14025,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "9.91 mm"
-			(at 208.28 40.64 0)
+			(at 208.28 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13944,7 +14035,7 @@
 			)
 		)
 		(property "Package" "NON STANDARD Freescale Semiconductor"
-			(at 208.28 40.64 0)
+			(at 208.28 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13954,7 +14045,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 208.28 40.64 0)
+			(at 208.28 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13964,7 +14055,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MPXV7002DP/NXP+Semiconductors/view-part/?ref=eda"
-			(at 208.28 40.64 0)
+			(at 208.28 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13974,7 +14065,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 208.28 40.64 0)
+			(at 208.28 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13984,7 +14075,7 @@
 			)
 		)
 		(property "PARTREV" "4"
-			(at 208.28 40.64 0)
+			(at 208.28 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13994,7 +14085,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MPXV7002DP/NXP+Semiconductors/view-part/?ref=snap"
-			(at 208.28 40.64 0)
+			(at 208.28 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14004,7 +14095,7 @@
 			)
 		)
 		(property "MP" "MPXV7002DP"
-			(at 208.28 40.64 0)
+			(at 208.28 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14014,7 +14105,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=7141986&manufacturer=NXP Semiconductors&part_name=MPXV7002DP&search_term=mpxv7002dp"
-			(at 208.28 40.64 0)
+			(at 208.28 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14024,7 +14115,7 @@
 			)
 		)
 		(property "Description_1" "Pressure Sensor ±0.29PSI (±2kPa) Differential Male - 0.13 (3.3mm) Tube, Dual 0.5 V ~ 4.5 V 8-BSOP (0.475, 12.06mm Width) Dual Ports, Same Side"
-			(at 208.28 40.64 0)
+			(at 208.28 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14034,7 +14125,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 208.28 40.64 0)
+			(at 208.28 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14044,7 +14135,7 @@
 			)
 		)
 		(property "MANUFACTURER" "NXP Semiconductors"
-			(at 208.28 40.64 0)
+			(at 208.28 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14138,7 +14229,7 @@
 	)
 	(symbol
 		(lib_id "SL_Resistors:3.3k")
-		(at 189.23 40.64 0)
+		(at 189.23 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14147,7 +14238,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8bbe833-e821-43dd-845e-e17a207e57e0")
 		(property "Reference" "R1"
-			(at 189.23 34.29 0)
+			(at 189.23 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14155,7 +14246,7 @@
 			)
 		)
 		(property "Value" "3.3K"
-			(at 189.23 36.83 0)
+			(at 189.23 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14163,7 +14254,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 190.119 44.958 0)
+			(at 190.119 41.148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14172,7 +14263,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.738 40.64 0)
+			(at 189.738 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14181,7 +14272,7 @@
 			)
 		)
 		(property "Description" "3.3kΩ, 1/4W Resistor"
-			(at 189.23 40.64 0)
+			(at 189.23 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)

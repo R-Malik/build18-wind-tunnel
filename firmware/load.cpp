@@ -4,8 +4,8 @@
 #include "load.h"
 
 static HX711 load;
-static float loadScale = -85343.417f;
-static long loadOffset = -1274450;
+static float loadScale = -85343.417f;	// use spring scale with known mass
+static long loadOffset = -1274351.709f;	// tare to 0 with no sample, tunnel on
 
 bool loadBegin(uint8_t doutPin, uint8_t clkPin) {
 	load.begin(doutPin, clkPin);
@@ -31,7 +31,7 @@ bool loadBegin(uint8_t doutPin, uint8_t clkPin) {
 // calibrated for Newtons
 float loadReadWeight(uint8_t samples) {
 	if (load.wait_ready_timeout(100)) {
-		return load.get_units(samples);
+		return load.get_units(samples) * -1;
 	} else {
 		Serial.println("Load cell DAC (HX711) read failed: not connected.");
 		return 0.0f;

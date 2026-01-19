@@ -7,13 +7,13 @@
 #include "press.h"
 #include "temp.h"
 
-#define DEBUG 1
+#define DEBUG 0
 
 const uint8_t LOAD_DATA = 21;
 const uint8_t LOAD_CLK = 22;
 const uint8_t PRESS_AOUT = A6;
 
-const uint8_t TEMP_ADDR = 0x77;
+const uint8_t TEMP_ADDR = 0x77;	// secondary I2C address
 const uint8_t ANGLE_ADDR = 0x36;
 
 const unsigned long SENSOR_POLL_MS = 200;
@@ -55,9 +55,9 @@ void loop() {
 		SensorData data;
 		readAllSensors(data);
 		#if DEBUG
-		printSensorDataDebug(data);
+		printSensorDataDebug(data); 	// human readable
 		#else
-		printSensorData(data);
+		printSensorData(data);	// CSV format
 		#endif
 	}
 }
@@ -97,5 +97,5 @@ void printSensorDataDebug(const SensorData &d) {
 	Serial.print(d.angleDeg, 2);
 	Serial.print(" degrees, ");
 	Serial.print(d.loadWeight, 3);
-	Serial.println(" Netwons");
+	Serial.println(" Newtons");
 }

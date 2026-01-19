@@ -20,10 +20,6 @@ float tempReadC() {
 	return temp.readTemperature();
 }
 
-float tempReadPressurePa() {
-	return temp.readPressure();
-}
-
 float tempReadHumidityPercent() {
 	return temp.readHumidity();
 }
